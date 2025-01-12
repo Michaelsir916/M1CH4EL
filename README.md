@@ -128,7 +128,7 @@
 
         <div class="inline-details">
             <div class="place">𝗣𝗜𝗔𝗖𝗘☮️✌️ : 🇮🇳 ɪɴᴅɪᴀ 𝙺𝙴𝚁𝙰𝙻𝙰</div>
-            <div>𝗥𝗘𝗔𝗟 𝗡𝗔𝗠𝗘 → 𝗔𝗗𝗜𝗟 (𝙲𝙰𝙻𝙻 𝙼𝙴 𝗔𝗗𝗜𝗜)</div>
+            <div>𝗔𝗚𝗘 → 2* </div>
             <div class="𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏"><a href="http://Wa.me/+916282617118"> 𝐇𝐄𝐋𝐏𝐈𝐍𝐆 𝐌𝐈𝐍𝐃 →</a></div>
         </div>
 
