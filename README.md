@@ -129,7 +129,7 @@
         <div class="inline-details">
             <div class="place">𝗣𝗜𝗔𝗖𝗘☮️✌️ : 🇮🇳 ɪɴᴅɪᴀ 𝙺𝙴𝚁𝙰𝙻𝙰</div>
             <div>𝗔𝗚𝗘 → 2* </div>
-            <div class="𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏"><a href="http://Wa.me/+916282617118"> 𝐇𝐄𝐋𝐏𝐈𝐍𝐆 𝐌𝐈𝐍𝐃 →</a></div>
+            <div class="𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏"><a href="http://Wa.me/+916282617118"> 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣</a></div>
         </div>
 
         <div class="section">
