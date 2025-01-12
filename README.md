@@ -120,7 +120,7 @@
     </video>
 
     <div class="container">
-        <div class="title"> 𝐌𝐈𝐂𝐇𝐀𝐄𝐋 𝐁𝐈𝐎</div>
+        <div class="title"> 𝐀𝐁𝐎𝐔𝐓 𝐌𝐄😌</div>
 
         <img src="https://cdn.glitch.global/2e76ebda-7a6e-4069-9a9e-4e3a8467e019/2aa824098c2011de7a06ef91de3d6638.jpg?v=1736634504174" alt="Profile Picture">
         
@@ -128,7 +128,7 @@
 
         <div class="inline-details">
             <div class="place">𝗣𝗜𝗔𝗖𝗘☮️✌️ : 🇮🇳 ɪɴᴅɪᴀ 𝙺𝙴𝚁𝙰𝙻𝙰</div>
-            <div>𝗔𝗚𝗘 → 𝟸𝟷</div>
+            <div>𝗥𝗘𝗔𝗟 𝗡𝗔𝗠𝗘 → 𝗔𝗗𝗜𝗟 (𝙲𝙰𝙻𝙻 𝙼𝙴 𝗔𝗗𝗜𝗜)</div>
             <div class="𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏"><a href="http://Wa.me/+916282617118"> 𝐇𝐄𝐋𝐏𝐈𝐍𝐆 𝐌𝐈𝐍𝐃 →</a></div>
         </div>
 
