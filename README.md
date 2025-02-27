@@ -1,19 +1,17 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MICHAEL</title>
+    <title>About Me - Michael</title>
     <style>
-        * {
+        body {
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1e1e2f, #2a2a40);
             color: #fff;
-            background: #000;
+            overflow: hidden; /* Remove scrolling */
         }
         .video-bg {
             position: fixed;
@@ -25,90 +23,84 @@
             z-index: -1;
         }
         .container {
-            max-width: 400px;
-            margin: 20px auto;
-            padding: 15px;
-            background-color: rgba(0, 0, 0, 0.7);
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+            position: relative;
+            z-index: 1;
             text-align: center;
-            animation: fadeIn 1s ease-in-out;
-        }
-        h1, h2, p {
-            color: #fff;
-            text-transform: uppercase;
-            text-shadow: 0 0 10px silver;
-            animation: textGlow 0.8s ease-in-out infinite;
-            margin-bottom: 10px;
-            font-size: 1.2em;
-        }
-        p {
-            font-size: 0.85em;
-        }
-        .inline-details {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 10px;
-        }
-        .inline-details div {
-            width: 33%;
-            text-align: center;
-            animation: textGlow 0.8s ease-in-out infinite;
-        }
-        .place {
-            font-size: 0.8em; /* Smaller text for Place */
-        }
-        .best-friend {
-            font-size: 0.8em; /* Smaller text for Best Friend */
-        }
-        .section ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .section ul li {
-            background-color: rgba(255, 255, 255, 0.1);
-            padding: 6px;
-            margin-bottom: 6px;
-            border-radius: 5px;
-            text-transform: uppercase;
-            text-shadow: 0 0 10px silver;
-            animation: textGlow 0.8s ease-in-out infinite;
-            font-size: 0.85em;
-        }
-        a {
-            color: #fff;
-            text-decoration: none;
-            text-shadow: 0 0 10px silver;
-            animation: textGlow 0.8s ease-in-out infinite;
-        }
-        a:hover {
-            color: #00ffcc;
+            padding: 20px;
+            margin-top: 10vh;
         }
         .title {
-            text-align: center;
-            margin-bottom: 15px;
-            font-size: 1.8em;
+            font-size: 2.5em;
             font-weight: bold;
             color: #fff;
-            text-shadow: 0 0 15px silver;
-            animation: textGlow 0.8s ease-in-out infinite;
+            text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+            animation: textGlow 1.5s ease-in-out infinite;
+            border: 3px solid rgb(0, 255, 204); /* RGB border */
+            padding: 10px;
+            border-radius: 10px;
+            display: inline-block;
         }
         img {
             border-radius: 50%;
-            width: 100px; /* Smaller size for the profile picture */
-            height: 100px; /* Smaller size for the profile picture */
-            margin-bottom: 15px;
-            animation: fadeIn 1s ease-in-out;
+            width: 120px;
+            height: 120px;
+            margin: 20px 0;
+            border: 3px solid #00ffcc;
+            animation: fadeIn 1.5s ease-in-out;
         }
-        /* Animation Keyframes */
+        h1 a {
+            color: #fff;
+            text-decoration: none;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+            animation: textGlow 1.5s ease-in-out infinite;
+        }
+        h1 a:hover {
+            color: #00ffcc;
+        }
+        .inline-details {
+            margin: 20px 0;
+            font-size: 1.2em;
+            color: #ccc;
+        }
+        .inline-details div {
+            margin: 10px 0;
+        }
+        .section {
+            margin: 30px 0;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            border: 2px solid #00ffcc;
+        }
+        .section h2 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            color: #00ffcc;
+        }
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section ul li {
+            margin: 10px 0;
+            font-size: 1.1em;
+            color: #fff;
+        }
+        .section ul li a {
+            color: #00ffcc;
+            text-decoration: none;
+        }
+        .section ul li a:hover {
+            text-decoration: underline;
+        }
         @keyframes fadeIn {
             from { opacity: 0; }
             to { opacity: 1; }
         }
         @keyframes textGlow {
-            0% { text-shadow: 0 0 10px silver, 0 0 20px silver; }
-            50% { text-shadow: 0 0 20px silver, 0 0 30px silver; }
-            100% { text-shadow: 0 0 10px silver, 0 0 20px silver; }
+            0% { text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); }
+            50% { text-shadow: 0 0 20px rgba(255, 255, 255, 0.8); }
+            100% { text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); }
         }
     </style>
 </head>
@@ -120,36 +112,35 @@
     </video>
 
     <div class="container">
-        <div class="title"> 𝐀𝐁𝐎𝐔𝐓 𝐌𝐄😌</div>
+        <div class="title">ABOUT ME 😌</div>
 
         <img src="https://cdn.glitch.global/2e76ebda-7a6e-4069-9a9e-4e3a8467e019/2aa824098c2011de7a06ef91de3d6638.jpg?v=1736634504174" alt="Profile Picture">
         
-        <h1><a href="https://telegram.me/M1CH3LS1R"> ᴩᴇᴏᴩʟᴇ ᴄᴀʟʟ ᴍᴇ ᴍ𝙸ᴄʜᴀᴇʟ</a></h1>
+        <h1><a href="https://telegram.me/M1CH3LS1R">People Call Me Michael</a></h1>
 
         <div class="inline-details">
-            <div class="place">𝗣𝗜𝗔𝗖𝗘☮️✌️ : 🇮🇳 ɪɴᴅɪᴀ 𝙺𝙴𝚁𝙰𝙻𝙰</div>
-            <div>𝗔𝗚𝗘 → 2* </div>
-            <div class="𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏"><a href="http://Wa.me/+916282617118"> 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣</a></div>
+            <div>📍 Place: Kerala, India 🇮🇳</div>
+            <div>🎂 Age: 2*</div>
+            <div><a href="http://Wa.me/+916282617118">📱 WhatsApp</a></div>
         </div>
 
         <div class="section">
-            <h2> 𝐌𝐘 𝐍𝐎𝐎𝐁 𝐒𝐊𝐈𝐋𝐋 </h2>
+            <h2>My Noob Skills</h2>
             <ul>
-                <li> 𝗣𝗔𝗜𝗗 𝗖𝗢𝗨𝗥𝗦𝗘 𝗟𝗘𝗔𝗞𝗜𝗡𝗚 </li>
-                <li> 𝗥𝗔𝗧 𝗘𝗡𝗖𝗥𝗬𝗣𝗧𝗘𝗥 </li>
-                <li>𝗧𝗘𝗥𝗠𝗨𝗫 𝗡𝗢𝗢𝗕🤒</li>
-                <li>𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 𝗕𝗢𝗧 𝗠𝗔𝗞𝗘𝗥 (𝗨𝗟𝗧𝗥𝗔 𝗡𝗢𝗢𝗕) </li>
-                <li>𝗣𝗛𝗜𝗦𝗛𝗜𝗡𝗚 𝗪𝗘𝗕 𝗠𝗔𝗞𝗘𝗥 </li>
-                <li> 𝗣𝗨𝗕𝗚 & 𝗕𝗚𝗠𝗜 𝗠𝗢𝗗 𝗠𝗔𝗞𝗘𝗥</li>
-                <li> 𝗚𝗔𝗠𝗘 𝗕𝗬𝗣𝗔𝗦𝗦 𝗠𝗔𝗞𝗘𝗥</li>
+                <li>💻 Paid Course Leaking</li>
+                <li>🔒 RAT Encrypter</li>
+                <li>📱 Termux Noob 🤒</li>
+                <li>🤖 Telegram Bot Maker (Ultra Noob)</li>
+                <li>🎣 Phishing Web Maker</li>
+                <li>🎮 PUBG & BGMI Mod Maker</li>
+                <li>🛠️ Game Bypass Maker</li>
             </ul>
         </div>
 
         <div class="section admins">
-            <h2>𝗔𝗗𝗠𝗜𝗡 𝗢𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟</h2>
+            <h2>Admin On Channel</h2>
             <ul>
-                <li><a href="https://t.me/anonymousfils">ᴀɴᴏɴʏᴍᴏᴜꜱ ꜰ𝙸ʟᴇꜱ</a></li>
-                
+                <li><a href="https://t.me/anonymousfils">Anonymous Files</a></li>
             </ul>
         </div>
     </div>
