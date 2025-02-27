@@ -69,6 +69,15 @@
         .inline-details div {
             margin: 10px 0;
         }
+        .inline-details a {
+            color: yellow; /* WhatsApp text color changed to yellow */
+            font-weight: bold; /* Bold text */
+            font-size: 1.3em; /* Slightly larger text */
+            text-decoration: none;
+        }
+        .inline-details a:hover {
+            text-shadow: 0 0 10px yellow; /* Glow effect on hover */
+        }
         .section {
             margin: 30px 0;
             padding: 20px;
