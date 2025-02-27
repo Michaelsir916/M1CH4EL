@@ -12,6 +12,10 @@
             background: linear-gradient(135deg, #1e1e2f, #2a2a40);
             color: #fff;
             overflow: hidden; /* Remove scrolling */
+            height: 100vh; /* Fixed height to prevent scrolling */
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         .video-bg {
             position: fixed;
@@ -27,7 +31,7 @@
             z-index: 1;
             text-align: center;
             padding: 20px;
-            margin-top: 10vh;
+            max-width: 90%; /* Ensure content fits within the viewport */
         }
         .title {
             font-size: 2.5em;
